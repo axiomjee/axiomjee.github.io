@@ -8,8 +8,6 @@
   <!-- SEO Meta -->
   <meta name="description" content="Axiom JEE Coaching offers premium 1-to-1 online coaching for IIT JEE Physics and Mathematics with a first-principles approach." />
   <meta name="keywords" content="IIT JEE coaching, JEE Physics coaching, JEE Maths coaching, 1 to 1 JEE coaching" />
-
-  <!-- Google Ads Compliance -->
   <meta name="robots" content="index, follow" />
 
   <style>
@@ -27,18 +25,29 @@
       padding: 50px 20px;
     }
 
-    h1, h2 {
-      color: #111111;
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-bottom: 10px;
+    }
+
+    .header img {
+      max-width: 120px;
+      height: auto;
     }
 
     h1 {
       font-size: 2.4rem;
-      margin-bottom: 10px;
+      margin: 0;
+      color: #111111;
     }
 
     h2 {
       margin-top: 40px;
       font-size: 1.6rem;
+      color: #111111;
     }
 
     .tagline {
@@ -63,10 +72,6 @@
       background: #155ed1;
     }
 
-    ul {
-      padding-left: 20px;
-    }
-
     .card {
       background: #f7f8fb;
       padding: 25px;
@@ -86,10 +91,6 @@
       font-weight: 500;
     }
 
-    .contact a:hover {
-      text-decoration: underline;
-    }
-
     footer {
       margin-top: 60px;
       font-size: 0.9rem;
@@ -98,9 +99,15 @@
       padding-top: 20px;
     }
 
-    .contact {
-      margin-top: 20px;
-      font-size: 1rem;
+    /* Mobile */
+    @media (max-width: 600px) {
+      .header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .header img {
+        max-width: 110px;
+      }
     }
   </style>
 </head>
@@ -108,7 +115,12 @@
 <body>
   <div class="container">
 
-    <h1>Axiom JEE Coaching</h1>
+    <!-- Logo + Title -->
+    <div class="header">
+      <img src="logo.png" alt="Axiom JEE Coaching Logo">
+      <h1>Axiom JEE Coaching</h1>
+    </div>
+
     <div class="tagline">Premium 1-to-1 Online Coaching for IIT JEE</div>
 
     <p>
@@ -143,13 +155,12 @@
     <h2>About the Mentor</h2>
     <div class="card">
       <p>
-        The program is led by an <span class="highlight">IIT Madras</span> alumnus, bringing strong analytical depth
-        to Physics and Mathematics coaching.
+        The program is led by an <span class="highlight">IIT Madras</span> alumnus with a
+        <strong>B.Tech in Electrical Engineering</strong>.
       </p>
       <p>
-        With over <span class="highlight">10+ years of focused IIT JEE coaching experience</span>,
-        the mentoring approach emphasizes conceptual clarity, structured thinking, and disciplined
-        problem-solving.
+        With over <span class="highlight">10+ years of IIT JEE coaching experience</span>,
+        the approach emphasizes structured thinking, deep concepts, and disciplined problem-solving.
       </p>
     </div>
 
