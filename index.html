@@ -3,17 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Axiom JEE Coaching | 1-to-1 IIT JEE Physics & Maths</title>
 
   <!-- SEO Meta -->
-  <meta name="description" content="Axiom JEE Coaching offers premium 1-to-1 online coaching for IIT JEE Physics and Mathematics with a first-principles approach." />
-  <meta name="keywords" content="IIT JEE coaching, JEE Physics coaching, JEE Maths coaching, 1 to 1 JEE coaching" />
+  <meta name="description"
+        content="Axiom JEE Coaching offers premium 1-to-1 online coaching for IIT JEE Physics and Mathematics with a first-principles approach." />
+  <meta name="keywords"
+        content="IIT JEE coaching, JEE Physics coaching, JEE Maths coaching, 1 to 1 JEE coaching" />
   <meta name="robots" content="index, follow" />
 
   <style>
     body {
       margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell;
       background: #ffffff;
       color: #222222;
       line-height: 1.6;
@@ -22,67 +25,75 @@
     .container {
       max-width: 900px;
       margin: auto;
-      padding: 50px 20px;
+      padding: 30px 20px 50px;
     }
 
-    /* Header */
-    .header {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 10px;
+    /* ===== Wide Header Logo ===== */
+    .header-banner {
+      text-align: center;
+      margin-bottom: 20px;
     }
 
-    .header img {
-      max-width: 120px;
+    .header-banner img {
+      max-width: 100%;
       height: auto;
+      max-height: 140px;
     }
 
     h1 {
       font-size: 2.4rem;
-      margin: 0;
+      margin: 10px 0 5px;
       color: #111111;
-    }
-
-    h2 {
-      margin-top: 40px;
-      font-size: 1.6rem;
-      color: #111111;
+      text-align: center;
     }
 
     .tagline {
       font-size: 1.2rem;
       color: #1f4fd8;
-      margin-bottom: 30px;
       font-weight: 500;
+      margin-bottom: 25px;
+      text-align: center;
     }
 
     .cta {
       background: #1f7aec;
       color: white;
-      padding: 14px 22px;
+      padding: 14px 26px;
       display: inline-block;
       text-decoration: none;
       border-radius: 6px;
       font-weight: 600;
-      margin: 20px 0;
+      margin: 25px auto;
+      display: block;
+      width: fit-content;
     }
 
     .cta:hover {
       background: #155ed1;
     }
 
+    h2 {
+      margin-top: 45px;
+      font-size: 1.6rem;
+      color: #111111;
+    }
+
     .card {
       background: #f7f8fb;
       padding: 25px;
       border-radius: 8px;
-      margin-top: 20px;
+      margin-top: 15px;
       border: 1px solid #e3e6ef;
     }
 
     .highlight {
       color: #1f4fd8;
       font-weight: 600;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin: 0;
     }
 
     .contact a {
@@ -97,16 +108,16 @@
       color: #666666;
       border-top: 1px solid #e6e6e6;
       padding-top: 20px;
+      text-align: center;
     }
 
-    /* Mobile */
+    /* Mobile adjustments */
     @media (max-width: 600px) {
-      .header {
-        flex-direction: column;
-        align-items: flex-start;
+      h1 {
+        font-size: 2rem;
       }
-      .header img {
-        max-width: 110px;
+      .header-banner img {
+        max-height: 110px;
       }
     }
   </style>
@@ -115,17 +126,19 @@
 <body>
   <div class="container">
 
-    <!-- Logo + Title -->
-    <div class="header">
-      <img src="Logo.png" alt="Axiom JEE Coaching Logo">
-      <h1>Axiom JEE Coaching</h1>
+    <!-- Wide Header Logo -->
+    <div class="header-banner">
+      <img src="Wide Header.png" alt="Axiom JEE Coaching Logo">
     </div>
 
+    <h1>Axiom JEE Coaching</h1>
     <div class="tagline">Premium 1-to-1 Online Coaching for IIT JEE</div>
 
-    <p>
-      Focused, personalised mentoring in <span class="highlight">Physics and Mathematics</span>
-      for serious JEE aspirants. We teach from <span class="highlight">first principles</span>, not shortcuts.
+    <p style="text-align:center;">
+      Focused, personalised mentoring in
+      <span class="highlight">Physics and Mathematics</span>
+      for serious JEE aspirants.
+      We teach from <span class="highlight">first principles</span>, not shortcuts.
     </p>
 
     <a class="cta" href="https://wa.me/916364425529" target="_blank">
@@ -159,14 +172,16 @@
         <strong>B.Tech in Electrical Engineering</strong>.
       </p>
       <p>
-        With over <span class="highlight">10+ years of IIT JEE coaching experience</span>,
-        the approach emphasizes structured thinking, deep concepts, and disciplined problem-solving.
+        With over <span class="highlight">5+ years of IIT JEE coaching experience</span> and
+        <span class="highlight">18+ years as a data science & analytics professional</span>
+        across leading MNCs, the teaching approach blends academic rigor with real-world analytical thinking.
       </p>
     </div>
 
     <h2>Contact</h2>
-    <div class="contact">
-      📧 Email: <a href="mailto:axiomjee@gmail.com">axiomjee@gmail.com</a><br />
+    <div class="card">
+      📧 Email:
+      <a href="mailto:axiomjee@gmail.com">axiomjee@gmail.com</a><br />
       📞 WhatsApp: +91-6364425529
     </div>
 
